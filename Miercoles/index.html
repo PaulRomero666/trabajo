@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".encabezado").click(function(){
+                $(".ocultar").removeClass("container").slideToggle(500)
+                $(".ocultar").removeClass("container")
+                $("#mas").addClass("ocultar")
+
+            
+            })
+            
+        })
+    
+
+
+    </script>
+</head>
+<body>
+    
+    <div class="container">
+     <div class="encabezado">
+        <p>FORMULARIO</p>
+        <img src="./png-transparent-computer-icons-symbol-symbol-miscellaneous-logo-plus.png" alt="" id="mas">
+        <img src="./png-transparent-symbol-plus-and-minus-signs-meno-symbol.png" alt="" class="ocultar">
+
+
+
+
+
+     </div>
+
+
+       <form action="" class="formu ocultar">
+        <label for="User">Usuario</label>
+        <input type="text" name="User" id="User">
+
+        <label for="pass">Password</label>
+        <input type="text" placeholder="Usuario" name="pass">
+        <button type="submit">Enviar</button>
+        
+       </form>
+        </div>
+        
+        
+           
+</body>
+</html>
