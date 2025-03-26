@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.uno{
+    width: 50%;
+    height: 50vh;
+    background: greenyellow;
+    padding: 5px;
+
+}
+.dos{
+    background: red;
+    border-radius: 50%;
+
+    
+}
+.formulario{
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    row-gap: 10px;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background : rgb(243, 238, 238);
+    color: white;
+    
+    
+}
+.signos {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.signo {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.plus {
+    color: rgb(255, 255, 255);
+}
+
+.minus {
+    color: red;
+}
+h1{
+    color: rgb(231, 227, 227)
+}
